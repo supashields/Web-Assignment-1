@@ -1,0 +1,97 @@
+  <main class="container">
+    <div class="jumbotron mt-3">
+     <h1 class="display-4 text-center"><%= title %></h1>
+    </div>
+     <% if (title == "Home"){ %>
+     <div class="text-center">
+     <h1>Welcome to the Jiu Qiang Xu's Website</h1>
+     <h2 class="mt-5">Mission Statement</h2>
+     <h4 class="font-weight-normal">I'm Jiu Qiang Xu, working on solidifying my skills in web development <br> using tech stacks such as MongoDB, Express, React/Angular, Node.js </h4>
+     <div class="mt-5 row">
+      <div class="col-4"><a href="/about">Learn More About Me</a></div>
+      <div class="col-4"><a href="/projects">View My Projects</a></div>
+      <div class="col-4"><a href="/contact">Contact Me</a></div>
+     </div>
+     </div>
+     <% } %>
+
+     <% if (title == "About Me"){ %>
+     <div class="row mb-3">
+       <div class="col-3">
+         <img src="/Assets/images/self.jpeg" class="profile-img"/>
+       </div>
+       <div class="col-9">
+         <h3 class="name-txt mb-3">Jiu Qiang Xu</h3>
+         <h4 class="desp-txt mb-3">Business Analyst</h4>
+         <h4 class="desp-txt">Bio:</h4>
+         <h4 class="bio font-weight-light">I'm a full time Business Analyst at The Hillman Group working with the IT department to ensure business needs are met for each department within the Canadian company. Currently working on a computer science degree to further my general understanding in the IT industry.</h4>
+       </div>
+     </div>
+     <a class="mt-5" href="/Assets/pdfs/resume.pdf" target="_blank">View My Resume</a>
+     <% } %>
+
+     <% if (title == "Projects"){ %>
+     <div class="row mt-5">
+       <div class="col-4">
+         <img src="/Assets/images/project1.jpg" class="profile-img card mb-3"/>
+         <a class="mt-3" href="https://www.haiteyarn.com" target="_blank"><h5>Haite Yarn Website</h5></a>
+         <h5 class="mt-3 text-info font-weight-light">Role: SEO Specialist</h5>
+         <h5 class="mt-3 font-weight-light">On going project requring SEO optimization to ensure increasing Google Search ranking for related products.</h5>
+       </div>
+       <div class="col-4">
+         <img src="/Assets/images/project2.png" class="profile-img card mb-3"/>
+         <a class="mt-3" href="https://www.telemed.ca" target="_blank"><h5>TelemedMD Website</h5></a>
+         <h5 class="mt-3 text-info font-weight-light">Role: Project Manager</h5>
+         <h5 class="mt-3 font-weight-light">Designed and implemented work flows for different portals within the website, while working with the designer and developer to ensure a timely delivery.</h5>
+       </div>
+       <div class="col-4">
+         <img src="/Assets/images/project3.jpg" class="profile-img card mb-3"/>
+         <a class="mt-3" href="https://anastasiaid.linknology.ca/" target="_blank"><h5>Anastasia Design Website</h5></a>
+         <h5 class="mt-3 text-info font-weight-light">Role: Front End Developer</h5>
+         <h5 class="mt-3 font-weight-light">Using Wordpress to design and build out a new version of an award winning professional desiger for kitchen and bathrooms. Soon to migrate to the client's home domain once completed.</h5>
+       </div>
+     </div>
+     <% } %>
+
+      <% if (title == "Services"){ %>
+     <div class="row mb-3">
+       <div class="col-3">
+         <img src="/Assets/images/services1.png" class="profile-img"/>
+       </div>
+       <div class="col-9">
+         <h3 class="name-txt mb-3 mt-5">Web Development</h3>
+         <h4 class="bio font-weight-light">Building out all the required functionality on the most popular display sizes to ensure a fully reactive website on any device for your business needs.</h4>
+       </div>
+     </div>
+     <div class="row mb-3">
+       <div class="col-3">
+         <img src="/Assets/images/services2.png" class="profile-img"/>
+       </div>
+       <div class="col-9">
+         <h3 class="name-txt mb-3 mt-5">Mobile Development</h3>
+         <h4 class="bio font-weight-light">Make your business standout with an integrated App solution along side your website to fit your brand on both iOS and Android.</h4>
+       </div>
+     </div>
+     <div class="row mb-3">
+       <div class="col-3">
+         <img src="/Assets/images/services3.png" class="profile-img"/>
+       </div>
+       <div class="col-9">
+         <h3 class="name-txt mb-3 mt-5">SEO Optimization</h3>
+         <h4 class="bio font-weight-light">Let our team help rank you faster with an optimized website with all of its contents visible and searchable on multiple search engines.</h4>
+       </div>
+     </div>
+     <% } %>
+
+     <% if (title == "Contact"){ %>
+     <div class="row mb-3 card">
+       <div class="col-3">
+         <img src="/Assets/images/services1.png" class="profile-img"/>
+       </div>
+       <div class="col-9">
+         <h3 class="name-txt mb-3 mt-5">Web Development</h3>
+         <h4 class="bio font-weight-light">Building out all the required functionality on the most popular display sizes to ensure a fully reactive website on any device for your business needs.</h4>
+       </div>
+     </div>
+     <% } %>
+  </main>

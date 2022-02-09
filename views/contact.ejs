@@ -1,0 +1,83 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/nav.ejs %>
+
+  <main class="container">
+    <div class="jumbotron mt-3">
+     <h1 class="display-4 text-center"><%= title %></h1>
+    </div>
+       <div class="row mb-3">
+
+       <div class="col-4 row">
+        <div class="col-4">
+         <div class="icon" > <i class="fa fa-envelope"></i></div>
+        </div>
+         <div class="col-8">
+           <p>Email:</p>
+           <p>johnxu27@gmail.com</p>
+         </div>
+       </div>
+
+       <div class="col-4 row">
+        <div class="col-4">
+          <div class="icon"> <i class="fa fa-map-marker"></i></div>
+        </div>
+         <div class="col-8">
+           <p>Address:</p>
+           <p>60 N Wind Pl
+           <br>Toronto, ON M1S 5L4</p>
+         </div>
+       </div>
+
+       <div class="col-4 row">
+        <div class="col-4">
+          <div class="icon"> <i class="fa fa-phone"></i></div>
+        </div>
+         <div class="col-8">
+           <p>Phone:</p>
+           <p>+1-416-823-4329</p>
+         </div>
+       </div> 
+
+     </div>
+     <div class="mt-5">
+    <div class="form-container">
+    <!-- returns to the homepage (index) with the values in the forms that currently does nothing but is captured -->
+  <form action="/"> 
+    <div class="row">
+       <div class="col-6 col-xs-12">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="First Name">
+       </div>
+       <div class="col-6 col-xs-12">
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+       </div>
+       <div class="col-12">
+          <label for="email">Email</label>
+         <input type="text" id="email" name="email" placeholder="Email Address">
+       </div>
+       <div class="col-12">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone Number">
+       </div>
+        <div class="col-12">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type Message Here" class="msg-txtarea"></textarea>
+       </div>
+       <div class="col-12"><input type="submit" value="Submit"></div>
+       </div>
+       </div>
+    <div>
+  </form>
+</div>
+     </div>
+    </div>
+
+<%- include partials/footer.ejs %>
+
+  
+
+
+
+

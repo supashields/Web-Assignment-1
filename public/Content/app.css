@@ -1,0 +1,76 @@
+/* Custom CSS */
+/* app.css, Jiu Qiang Xu, 301209220, February 9th, 2020*/
+.logo{
+    height: 40px;
+    width: auto;
+    margin-right: 16px
+}
+
+.nav-item{
+    margin-right: 32px
+}
+
+.profile-img{
+    width: 100%;
+    height: auto
+}
+
+.card{
+    border: 1px solid #000
+}
+
+.icon i {
+    border: 2px solid #6E70D1;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 76px;
+    margin-right: 10px;
+    color:#6E70D1
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .msg-txtarea{
+      height: 260px
+  }
+
+  .bottom{
+      width: 100%;
+      margin-top: 200px
+  }
+
+  .container{
+      height: fit-content
+  }
