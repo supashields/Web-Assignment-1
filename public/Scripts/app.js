@@ -1,4 +1,4 @@
-// IIFE -- Immediately Invoked Function Expression
+// app.js, Jiu Qiang Xu, 301209220, February 9th, 2020
 (function(){
 
     function Start()

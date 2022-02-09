@@ -1,6 +1,8 @@
+  <!-- Content Section-->
   <main class="container">
     <div class="jumbotron mt-3">
      <h1 class="display-4 text-center"><%= title %></h1>
+     <!-- If statement for each title screens outside of Contact which has its own template from assignment requirements-->
     </div>
      <% if (title == "Home"){ %>
      <div class="text-center">
@@ -30,6 +32,7 @@
      <a class="mt-5" href="/Assets/pdfs/resume.pdf" target="_blank">View My Resume</a>
      <% } %>
 
+     <!-- Current projects from my personal company at www.linknology.ca -->
      <% if (title == "Projects"){ %>
      <div class="row mt-5">
        <div class="col-4">
@@ -52,7 +55,7 @@
        </div>
      </div>
      <% } %>
-
+     <!-- Current services provided by my personal company -->
       <% if (title == "Services"){ %>
      <div class="row mb-3">
        <div class="col-3">
@@ -83,15 +86,5 @@
      </div>
      <% } %>
 
-     <% if (title == "Contact"){ %>
-     <div class="row mb-3 card">
-       <div class="col-3">
-         <img src="/Assets/images/services1.png" class="profile-img"/>
-       </div>
-       <div class="col-9">
-         <h3 class="name-txt mb-3 mt-5">Web Development</h3>
-         <h4 class="bio font-weight-light">Building out all the required functionality on the most popular display sizes to ensure a fully reactive website on any device for your business needs.</h4>
-       </div>
-     </div>
-     <% } %>
+     
   </main>
